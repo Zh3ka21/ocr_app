@@ -1,7 +1,6 @@
 {
   "files.exclude": {
-    "**/__pycache__": true,
-    "**/.venv": true
+    "**/__pycache__": true
   },
   "python.analysis.exclude": ["**/node_modules", "**/.venv", "**/__pycache__"]
 }

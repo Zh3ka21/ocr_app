@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.auth.router import router as auth_router
+from auth_service.src.auth_service.router import router as auth_router
 from database import create_database_if_not_exists, Base, engine
 
 app = FastAPI()

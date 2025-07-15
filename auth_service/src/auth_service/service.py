@@ -1,9 +1,9 @@
 from datetime import datetime, timedelta
 from jose import jwt, JWTError
 from passlib.context import CryptContext
-from auth.models import User
+from auth_service.models import User
 from database import SessionLocal
-from src.auth.config import settings
+from auth_service.config import settings
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
